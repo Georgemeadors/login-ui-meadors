@@ -4,21 +4,22 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: blueviolet;
+    background-color: brown;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .login-box {
-    width: 300px;
+    min-width: 300px;
     padding: 20px;
     background-color: bisque ;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow:0 20px rgba(0,0,0,0.2);
 }
 
 h2{
@@ -32,10 +33,12 @@ form{
 
 .input-field{
     margin-bottom: 10px;
+    
 }
 
 label {
     font-weight: bold;
+    
 }
 
 input[type="text"],
@@ -43,17 +46,25 @@ input[type="password"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+   
 }
 
 button{
+    width: 100%;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+   
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+.forget-password {
+    margin-top: 10px;
+    padding-top: 10px;
 }
